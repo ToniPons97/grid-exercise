@@ -1,0 +1,62 @@
+html {
+    font-family: sans-serif;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    border: 1px solid gray; 
+    border-radius: 1%;
+}
+
+div {
+    border: 1px solid rgba(148, 159, 199, 0.689);
+    font-size: 36px;
+}
+
+.main-keys:hover {
+    background-color: antiquewhite;
+}
+
+#result {
+    background-color: rgb(81, 81, 81);
+    color: white;
+    grid-column: span 4;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+
+}
+
+.symbols {
+    background-color: rgb(175, 171, 171);
+}
+
+.symbols, .main-keys {
+    text-align: center;
+    padding: 5px 0px;
+
+}
+
+.main-keys {
+    background-color: rgb(244, 244, 244);
+}
+
+#equals {
+    grid-row: span 4;
+    text-align: center;
+    padding-top: 4rem;
+    background-color: rgb(254, 132, 132);
+}
+
+#equals:hover {
+    background-color: rgb(185, 218, 135);
+}
+
+#AC:hover {
+    background-color: rgb(218, 255, 162);
+}
+
+.symbols:hover {
+    background-color: rgb(56, 187, 187);
+}
